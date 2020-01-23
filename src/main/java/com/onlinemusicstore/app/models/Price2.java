@@ -20,10 +20,10 @@ public class Price2 implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	@Id
+	
 	private Integer id;
 	
-	@Min(value = 0, message = "The product price must no be less then zero.")
+	private int thePrice;
 	private double price;
 		
 	private double percentageDiscount;
