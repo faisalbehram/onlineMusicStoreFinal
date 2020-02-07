@@ -50,9 +50,8 @@ public class RegistrationController {
 	  @Autowired
 	  RestTemplate restTemplate;
 
-//	@Autowired
-//	private SendTheMail sendTheMail;
-//	
+
+
 	 @RequestMapping("/register")
 	    public String registerCustomer(Model model) {
 
